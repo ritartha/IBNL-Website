@@ -486,69 +486,7 @@
 
 
 
-/*Groups*/
-.main__container--groups{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin: 0 auto;
-    height: 200vh;
-    background-color: #141414;
-    z-index: 1;
-    width: 100%;
-    max-width: 2000px;
-    padding: 0 50px;
-}
 
-.main__content--groups h1{
-    font-size: 2rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb102 100%);
-    background-size: 100%;
-    -webkit-background-clip:text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
-}
-
-.main__content--groups h2{
-    font-size: 1rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #05dae9 0%, hsl(74, 28%, 91%) 100%);
-    background-size: 100%;
-    -webkit-background-clip:text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
-}
-
-
-.main__content--groups p{
-
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-    font-family:'Kumbh Sans',sans-serif;
-    color:#ffffff;
-}
-
-.main__content--groups ul{
-
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-    font-family:'Kumbh Sans',sans-serif;
-    color:#fff;
-}
-.main__content--groups ol{
-
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-    font-family:'Kumbh Sans',sans-serif;
-    color:#fff;
-}
 /*Groups  email button*/
 .button-17 {
     align-items: center;
@@ -762,3 +700,85 @@
 }
 
 
+/*** GROUPS PROFILES ***/
+/*Groups*/
+.main__container--groups{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: auto;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 50px;
+}
+
+.main__content--groups h1{
+    font-size: 2rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb102 100%);
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.main__content--groups h2{
+    font-size: 1rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #05dae9 0%, hsl(74, 28%, 91%) 100%);
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+
+.main__content--groups p{
+
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Kumbh Sans',sans-serif;
+    color:#ffffff;
+}
+
+.main__content--groups ul{
+
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Kumbh Sans',sans-serif;
+    color:#fff;
+}
+.main__content--groups ol{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 20px; /* Adjust the gap between grid items */
+    padding: 0; /* Remove default padding */
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Kumbh Sans',sans-serif;
+    color:#fff;
+}
+#groups ul ol li{
+    display: grid;
+    background-color: #3e3f3f;
+    border-radius: 10px;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+#groups ul ol li img{
+    align-items: center;
+    justify-self: center;
+    padding: 2px;
+    margin: 2%;
+    border-radius: 50%;
+}
