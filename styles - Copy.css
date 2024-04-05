@@ -59,17 +59,7 @@
 }
 
 .navbar__item{
-    align-items: center;
-}
-.navbar__item a{
-    height: 30;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-}
-.navbar__item a:hover{
-    box-shadow: 0 0 10px #f77062;
+    height: 80px;
 }
 
 .navbar__links{
