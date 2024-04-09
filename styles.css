@@ -268,7 +268,7 @@
     color:#fff;
 }
 .main__content ol{
-
+    
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: 700;
@@ -782,3 +782,124 @@
     margin: 2%;
     border-radius: 50%;
 }
+
+/*** CONTACTS ***/
+
+.main__container--contacts{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: auto;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 50px;
+}
+
+.main__content--contacts h1{
+    font-size: 2rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb102 100%);
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.main__content--contacts h2{
+    font-size: 1rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #05dae9 0%, hsl(74, 28%, 91%) 100%);
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+
+.main__content--contacts p{
+
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Kumbh Sans',sans-serif;
+    color:#ffffff;
+}
+
+.main__content--contacts ul{
+
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Kumbh Sans',sans-serif;
+    color:#fff;
+}
+.main__content--contacts ol{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns */
+    gap: 20px; /* Adjust the gap between grid items */
+    padding: 0; /* Remove default padding */
+    list-style: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:'Kumbh Sans',sans-serif;
+    color:#fff;
+}
+
+.main__content--contacts div{
+    border: 20px;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #444343;
+}
+
+ .designation{
+    padding-top: 5px;
+    color: #bdc1c2;
+    font-size: 1rem;
+}
+
+.dept{
+    font-size: 1rem;
+    color:#d3b981
+}
+.institute{
+    font-size: 1rem;
+    color:#fff;
+}
+.address{
+    font-size: 1rem;
+    color:#fff;
+    padding-bottom: 5px;
+}
+.telfax{
+    
+    font-size: 0.9rem;
+    color:#8fa4b4
+}
+.email a{
+    
+    text-decoration: none;
+    text-decoration: none;
+    color: #2a65d1;
+
+}
+.main__container--contacts div h3{
+    justify-content: center;
+    align-items: center;
+}
+.main__content--contacts div h3 img{
+    justify-content: center;
+    align-items: center;
+    color:#8fa4b4;
+    padding-right: 2px;
+    height: 20px;
+    width: 20px;
+
+}
+
